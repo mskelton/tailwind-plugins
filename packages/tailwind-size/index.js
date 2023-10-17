@@ -3,7 +3,7 @@ const plugin = require("tailwindcss/plugin");
 const size = plugin(function ({ matchUtilities, theme }) {
   matchUtilities(
     {
-      size: (value) => ({
+      s: (value) => ({
         width: value,
         height: value,
       }),

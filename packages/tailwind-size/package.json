@@ -1,7 +1,7 @@
 {
   "name": "@mskelton/tailwind-size",
   "description": "Tailwind plugin to set width/height identically.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mskelton/tailwind-plugins.git",
