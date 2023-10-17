@@ -1,0 +1,37 @@
+{
+  "name": "@mskelton/tailwind-size",
+  "description": "Tailwind plugin to set width/height identically.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskelton/tailwind-plugins.git",
+    "directory": "packages/tailwind-size"
+  },
+  "author": "Mark Skelton",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "tailwind-plugin",
+    "tailwind",
+    "width",
+    "height",
+    "size"
+  ],
+  "sideEffects": false,
+  "type": "commonjs",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {},
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
